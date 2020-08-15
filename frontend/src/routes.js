@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from "react-router-dom";
+import { Route } from "react-router-dom"; // .
 
 import ArticleList from "./containers/ArticleListView";
 import ArticleDetail from "./containers/ArticleDetailView";
