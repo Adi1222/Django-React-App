@@ -99,4 +99,4 @@ const mapDispatchToProps = (dispatch) => {
   };
 };
 
-export default connect(mapStateToProps, mapDispatchToProps)(NormalLoginForm);
+export default connect(mapStateToProps, mapDispatchToProps)(NormalLoginForm); // to use data from store
