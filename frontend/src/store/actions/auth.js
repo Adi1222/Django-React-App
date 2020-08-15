@@ -1,7 +1,7 @@
 import * as actionTypes from "./actionTypes";
 import axios from "axios";
 
-// Now we create Action creators, functions that return an action,(which consists of types and optional payload containing extra information to pass to the reducer)
+// Now we create Action creators, functions that return an action,(which consists of types and optional payload containing extra information to pass to the reducer).
 
 export const authStart = () => {
   return {
