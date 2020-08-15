@@ -8,6 +8,8 @@ class ArticleViewSet(viewsets.ModelViewSet):
     serializer_class = ArticleSerializer
     queryset = Article.objects.all()
 
+# OR
+
 
 '''
 class ArticleListView(ListAPIView):
